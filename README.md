@@ -38,3 +38,13 @@ Please note that you need to specify the root folder for all datasets `_C.DATA_D
 Our codes are built upon [Online Test-Time Adaptation](https://github.com/mariodoebler/test-time-adaptation/tree/main). Thanks for their contribution to the community and the development of research!
 
 You may follow this link to explore more settings and the compared methods.
+
+### Citation
+```
+@article{su2023unraveling,
+  title={Unraveling Batch Normalization for Realistic Test-Time Adaptation},
+  author={Su, Zixian and Guo, Jingwei and Yao, Kai and Yang, Xi and Wang, Qiufeng and Huang, Kaizhu},
+  journal={arXiv preprint arXiv:2312.09486},
+  year={2023}
+}
+```
