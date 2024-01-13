@@ -24,7 +24,7 @@ Our proposed method enjoys a unique advantage as it requires neither training no
 ### Run Experiments
 ``python test_time.py --cfg cfgs/[cifar10_c/cifar100_c/imagenet_c]/norm_TTBN.yaml``
 
-Please note that you need to specify the root folder for all datasets `_C.DATA_DIR = "./data" in the file conf.py`. You also need to change the batch size and the corresponding momentum in ``cfgs/[cifar10_c/cifar100_c/imagenet_c]/norm_TTBN.yaml``.
+Please note that you need to specify the root folder for all datasets `_C.DATA_DIR = "./data" in the file conf.py` and  for all checkpoints `_C.CKPT_DIR = "./ckpt" in the file conf.py`. You also need to change the batch size and the corresponding momentum in ``cfgs/[cifar10_c/cifar100_c/imagenet_c]/norm_TTBN.yaml``.
 
 ### Detailed Momentum for Different Batch Size
 
